@@ -23,6 +23,8 @@ public class IpController {
      */
     @GetMapping("test")
     public String test(String ip) {
+        // getAddressAndIsp  中国 河南 洛阳 电信 多了一个运营商
+        log.info(""+ip2regionSearcher.getAddressAndIsp(ip));
         return ip2regionSearcher.getAddress(ip);
     }
 }
