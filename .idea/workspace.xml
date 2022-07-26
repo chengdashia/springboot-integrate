@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="SpringBoot使用ip2region 通过ip获取 地理位置信息" />
+    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="SpringBoot使用ip2region 通过ip获取 地理位置信息">
+      <change afterPath="$PROJECT_DIR$/springboot-jasypt/src/main/java/com/example/jasypt/config/MyJasyptConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +38,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="2CSmDCtIIem1O6DFfCDyqE5hMRn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,7 +56,25 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.jasypt.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyJasyptConfig">
+    <configuration name="MyJasyptConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.jasypt.config.MyJasyptConfig" />
+      <module name="springboot-jasypt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.jasypt.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ip2regionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ip2region" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ip2region.Ip2regionApplication" />
@@ -55,6 +82,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringbootJasyptApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-jasypt" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.jasypt.SpringbootJasyptApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyJasyptConfig" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658804239977</updated>
-      <workItem from="1658804241252" duration="1191000" />
+      <workItem from="1658804241252" duration="2904000" />
     </task>
     <task id="LOCAL-00001" summary="SpringBoot使用ip2region 通过ip获取 地理位置信息">
       <created>1658805290859</created>
@@ -73,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658805290859</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="SpringBoot使用ip2region 通过ip获取 地理位置信息">
+      <created>1658805617509</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658805617509</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

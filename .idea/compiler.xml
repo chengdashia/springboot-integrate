@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-jasypt" />
         <module name="springboot-integrate" />
         <module name="ip2region" />
       </profile>
@@ -15,6 +16,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ip2region" options="-parameters" />
+      <module name="springboot-jasypt" options="-parameters" />
     </option>
   </component>
 </project>

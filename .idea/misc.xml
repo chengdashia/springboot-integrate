@@ -12,6 +12,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ip2region/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-jasypt/pom.xml" />
       </list>
     </option>
   </component>
