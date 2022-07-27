@@ -4,16 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="版本控制">
-      <change afterPath="$PROJECT_DIR$/springboot-integrate.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-xss/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-xss/src/main/java/com/example/XssMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-xss/src/main/java/com/example/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-xss/src/main/java/com/example/filter/FilterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-xss/src/main/java/com/example/filter/MyServletInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-xss/src/main/java/com/example/filter/XssFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-xss/src/main/java/com/example/filter/XssHttpServletRequestWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-xss/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="xss 防护">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxjava/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/WxJavaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/common/exception/BaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/common/exception/ExceptionEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/common/exception/RestExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/common/result/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/common/result/ResponseAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/common/result/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/config/wxjava/WxMaConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/config/wxjava/WxMaProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/controller/WxUserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/domain/dto/WxUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/service/UserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -26,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -64,24 +72,38 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/open_source_project/demo/demo",
+    "last_opened_file_path": "E:/gitProject/github/springboot-integrate/springboot-wxjava/src/main/java/com/example/wxjava/controller",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
-    "spring.configuration.checksum": "f77cc69f076871adc4618d6e475c5723"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "spring.configuration.checksum": "c690269631b749d5d78a4fa40ba0b09d"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\gitProject\github\springboot-integrate\springboot-wxjava\src\main\java\com\example\wxjava\controller" />
+      <recent name="E:\gitProject\github\springboot-integrate\springboot-wxjava\src\main\java\com\example\wxjava\config" />
+      <recent name="E:\gitProject\github\springboot-integrate\springboot-wxjava\src\main\resources" />
+      <recent name="E:\gitProject\github\springboot-integrate\springboot-wxjava\src\main\java\com\example\wxjava" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\gitProject\github\springboot-integrate\springboot-arcface\src\main\java\com\example\springbootarcface" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.wxjava.domain.dto" />
       <recent name="com.example.jasypt.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.XssMain">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.WxJavaMain">
     <configuration name="MyJasyptConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.jasypt.config.MyJasyptConfig" />
       <module name="springboot-jasypt" />
@@ -112,6 +134,13 @@
     <configuration name="SpringbootJasyptApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-jasypt" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.jasypt.SpringbootJasyptApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WxJavaMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-wxjava" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.wxjava.WxJavaMain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,6 +176,7 @@
       <workItem from="1658804241252" duration="3957000" />
       <workItem from="1658808353609" duration="1543000" />
       <workItem from="1658896896903" duration="5815000" />
+      <workItem from="1658931752201" duration="2384000" />
     </task>
     <task id="LOCAL-00001" summary="SpringBoot使用ip2region 通过ip获取 地理位置信息">
       <created>1658805290859</created>
@@ -190,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658896994727</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="xss 防护">
+      <created>1658931796013</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658931796013</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +249,7 @@
     <MESSAGE value="【springboot】 整合 jasypt 配置信息加密" />
     <MESSAGE value="【springboot】 整合 ip2region ip信息获取" />
     <MESSAGE value="版本控制" />
-    <option name="LAST_COMMIT_MESSAGE" value="版本控制" />
+    <MESSAGE value="xss 防护" />
+    <option name="LAST_COMMIT_MESSAGE" value="xss 防护" />
   </component>
 </project>

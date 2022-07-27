@@ -7,9 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-wxjava" />
+        <module name="ip2region" />
         <module name="springboot-jasypt" />
         <module name="springboot-xss" />
-        <module name="ip2region" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

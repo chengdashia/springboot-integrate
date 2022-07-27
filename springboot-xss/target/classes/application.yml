@@ -1,0 +1,5 @@
+#xss攻击拦截
+xss:
+  enabled: false
+  excludes:
+  urlPatterns: /*
