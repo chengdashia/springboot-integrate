@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="【Springboot】整合wxjava实现微信登录">
-      <change beforePath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/controller/WxUserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/controller/WxUserInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/service/UserInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="【Springboot】整合wxjava实现获取用户信息">
+      <change afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/controller/WxMessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/service/impl/MessageServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +160,7 @@
       <workItem from="1658804241252" duration="3957000" />
       <workItem from="1658808353609" duration="1543000" />
       <workItem from="1658896896903" duration="5815000" />
-      <workItem from="1658931752201" duration="2698000" />
+      <workItem from="1658931752201" duration="3123000" />
     </task>
     <task id="LOCAL-00001" summary="SpringBoot使用ip2region 通过ip获取 地理位置信息">
       <created>1658805290859</created>
@@ -218,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658934362937</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="【Springboot】整合wxjava实现获取用户信息">
+      <created>1658934638166</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658934638166</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +249,7 @@
     <MESSAGE value="版本控制" />
     <MESSAGE value="xss 防护" />
     <MESSAGE value="【Springboot】整合wxjava实现微信登录" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Springboot】整合wxjava实现微信登录" />
+    <MESSAGE value="【Springboot】整合wxjava实现获取用户信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Springboot】整合wxjava实现获取用户信息" />
   </component>
 </project>
