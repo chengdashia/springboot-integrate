@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="【springboot】 整合 ip2region ip信息获取">
-      <change afterPath="$PROJECT_DIR$/springboot-arcface/src/main/java/com/example/springbootarcface/FaceEngineTest.java" afterDir="false" />
+    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="版本控制">
+      <change afterPath="$PROJECT_DIR$/springboot-integrate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-xss/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-xss/src/main/java/com/example/XssMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-xss/src/main/java/com/example/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-xss/src/main/java/com/example/filter/FilterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-xss/src/main/java/com/example/filter/MyServletInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-xss/src/main/java/com/example/filter/XssFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-xss/src/main/java/com/example/filter/XssHttpServletRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-xss/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +66,11 @@
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "E:/open_source_project/demo/demo",
     "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "72620a914ee7ba4ac7a94e90812a2895"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
+    "spring.configuration.checksum": "f77cc69f076871adc4618d6e475c5723"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -70,7 +81,7 @@
       <recent name="com.example.jasypt.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Ip2regionApplication">
+  <component name="RunManager" selected="Spring Boot.XssMain">
     <configuration name="MyJasyptConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.jasypt.config.MyJasyptConfig" />
       <module name="springboot-jasypt" />
@@ -105,8 +116,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XssMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-xss" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.XssMain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.XssMain" />
         <item itemvalue="Application.MyJasyptConfig" />
       </list>
     </recent_temporary>
@@ -121,6 +146,7 @@
       <updated>1658804239977</updated>
       <workItem from="1658804241252" duration="3957000" />
       <workItem from="1658808353609" duration="1543000" />
+      <workItem from="1658896896903" duration="5815000" />
     </task>
     <task id="LOCAL-00001" summary="SpringBoot使用ip2region 通过ip获取 地理位置信息">
       <created>1658805290859</created>
@@ -157,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658807709939</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="版本控制">
+      <created>1658896994727</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658896994727</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +211,7 @@
     <MESSAGE value="SpringBoot使用ip2region 通过ip获取 地理位置信息" />
     <MESSAGE value="【springboot】 整合 jasypt 配置信息加密" />
     <MESSAGE value="【springboot】 整合 ip2region ip信息获取" />
-    <option name="LAST_COMMIT_MESSAGE" value="【springboot】 整合 ip2region ip信息获取" />
+    <MESSAGE value="版本控制" />
+    <option name="LAST_COMMIT_MESSAGE" value="版本控制" />
   </component>
 </project>
