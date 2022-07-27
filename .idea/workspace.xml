@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="【springboot】 整合 jasypt 配置信息加密">
-      <change beforePath="$PROJECT_DIR$/ip2region/src/main/java/com/example/ip2region/controller/IpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ip2region/src/main/java/com/example/ip2region/controller/IpController.java" afterDir="false" />
+    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="【springboot】 整合 ip2region ip信息获取">
+      <change afterPath="$PROJECT_DIR$/springboot-arcface/src/main/java/com/example/springbootarcface/FaceEngineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +48,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "nodejs_package_manager_path": "npm"
+    "last_opened_file_path": "E:/open_source_project/demo/demo",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "72620a914ee7ba4ac7a94e90812a2895"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\gitProject\github\springboot-integrate\springboot-arcface\src\main\java\com\example\springbootarcface" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.jasypt.config" />
     </key>
@@ -78,6 +91,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringbootArcfaceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-arcface" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootarcface.SpringbootArcfaceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringbootJasyptApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-jasypt" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.jasypt.SpringbootJasyptApplication" />
@@ -99,7 +119,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658804239977</updated>
-      <workItem from="1658804241252" duration="3272000" />
+      <workItem from="1658804241252" duration="3957000" />
+      <workItem from="1658808353609" duration="1543000" />
     </task>
     <task id="LOCAL-00001" summary="SpringBoot使用ip2region 通过ip获取 地理位置信息">
       <created>1658805290859</created>
@@ -129,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658807389446</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="【springboot】 整合 ip2region ip信息获取">
+      <created>1658807709939</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658807709939</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +177,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SpringBoot使用ip2region 通过ip获取 地理位置信息" />
     <MESSAGE value="【springboot】 整合 jasypt 配置信息加密" />
-    <option name="LAST_COMMIT_MESSAGE" value="【springboot】 整合 jasypt 配置信息加密" />
+    <MESSAGE value="【springboot】 整合 ip2region ip信息获取" />
+    <option name="LAST_COMMIT_MESSAGE" value="【springboot】 整合 ip2region ip信息获取" />
   </component>
 </project>
