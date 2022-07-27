@@ -1,7 +1,9 @@
 package com.example.wxjava.service;
 
 import cn.binarywang.wx.miniapp.bean.WxMaJscode2SessionResult;
+import cn.binarywang.wx.miniapp.bean.WxMaUserInfo;
 import com.example.wxjava.common.result.R;
+import com.example.wxjava.domain.dto.WxUserInfo;
 
 /**
  * @author 成大事
@@ -15,4 +17,11 @@ public interface UserInfoService {
      * @return   WxMaJscode2SessionResult
      */
     R<WxMaJscode2SessionResult> login(String code);
+
+    /**
+     * 获取用户信息
+     * @param userInfo  包含一些加密的信息
+     * @return  WxMaUserInfo
+     */
+    R<WxMaUserInfo> getUserInfo(WxUserInfo userInfo);
 }

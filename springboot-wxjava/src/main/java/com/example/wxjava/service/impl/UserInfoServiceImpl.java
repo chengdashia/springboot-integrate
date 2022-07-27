@@ -2,8 +2,10 @@ package com.example.wxjava.service.impl;
 
 import cn.binarywang.wx.miniapp.api.WxMaService;
 import cn.binarywang.wx.miniapp.bean.WxMaJscode2SessionResult;
+import cn.binarywang.wx.miniapp.bean.WxMaUserInfo;
 import cn.binarywang.wx.miniapp.util.WxMaConfigHolder;
 import com.example.wxjava.common.result.R;
+import com.example.wxjava.domain.dto.WxUserInfo;
 import com.example.wxjava.service.UserInfoService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -41,5 +43,20 @@ public class UserInfoServiceImpl implements UserInfoService {
         } finally {
             WxMaConfigHolder.remove();//清理ThreadLocal
         }
+    }
+
+    @Override
+    public R<WxMaUserInfo> getUserInfo(WxUserInfo userInfo) {
+
+        // 用户信息校验
+        if (!wxMaService.getUserService().checkUserInfo(userInfo.getSessionKey(), userInfo.getRawData(), userInfo.getSignature())) {
+            WxMaConfigHolder.remove();//清理ThreadLocal
+            return R.error("user check failed");
+        }
+
+        // 解密用户信息
+        WxMaUserInfo wxMaUserInfo = wxMaService.getUserService().getUserInfo(userInfo.getSessionKey(), userInfo.getEncryptedData(), userInfo.getIv());
+        WxMaConfigHolder.remove();//清理ThreadLocal
+        return R.ok(wxMaUserInfo);
     }
 }

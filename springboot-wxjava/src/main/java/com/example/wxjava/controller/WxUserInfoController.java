@@ -42,17 +42,7 @@ public class WxUserInfoController {
      */
     @PostMapping("/getUserInfo")
     public R<WxMaUserInfo> getUserInfo(@RequestBody WxUserInfo userInfo) {
-
-        // 用户信息校验
-        if (!wxMaService.getUserService().checkUserInfo(userInfo.getSessionKey(), userInfo.getRawData(), userInfo.getSignature())) {
-            WxMaConfigHolder.remove();//清理ThreadLocal
-            return R.error("user check failed");
-        }
-
-        // 解密用户信息
-        WxMaUserInfo wxMaUserInfo = wxMaService.getUserService().getUserInfo(userInfo.getSessionKey(), userInfo.getEncryptedData(), userInfo.getIv());
-        WxMaConfigHolder.remove();//清理ThreadLocal
-        return R.ok(wxMaUserInfo);
+        return userInfoService.getUserInfo(userInfo);
     }
 
 
