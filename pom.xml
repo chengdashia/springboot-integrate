@@ -11,6 +11,7 @@
     <modules>
         <module>springboot-xss</module>
         <module>springboot-wxjava</module>
+        <module>springboot-tools</module>
     </modules>
 
     <properties>
