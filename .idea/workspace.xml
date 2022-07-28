@@ -4,29 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="【Springboot】wxjava 无用的依赖删除">
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/ToolsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/annotation/CustomSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/annotation/MyJsonSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/common/exception/BaseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/common/exception/ExceptionEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/common/exception/RestExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/common/result/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/common/result/ResponseAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/common/result/ResultCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/domain/vo/TestVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/rule/BaseRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/rule/DefaultRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/rule/IdCardRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/rule/PasswordRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/rule/PhoneRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/rule/RuleItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/rule/UserNameRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="父工程添加新的依赖">
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method2/annotation/Desensitize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method2/annotation/DesensitizeRuleEnums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method2/annotation/SensitiveJsonSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method2/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method2/domain/vo/UserInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-tools/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method1/annotation/CustomSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method1/annotation/CustomSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method1/annotation/MyJsonSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method1/annotation/MyJsonSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method1/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method1/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method1/domain/vo/TestVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method1/domain/vo/TestVo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -193,7 +182,7 @@
       <workItem from="1658808353609" duration="1543000" />
       <workItem from="1658896896903" duration="5815000" />
       <workItem from="1658931752201" duration="3414000" />
-      <workItem from="1658966667487" duration="13028000" />
+      <workItem from="1658966667487" duration="14128000" />
     </task>
     <task id="LOCAL-00001" summary="SpringBoot使用ip2region 通过ip获取 地理位置信息">
       <created>1658805290859</created>
@@ -300,7 +289,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659004689794</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="【Springboot】tools 数据脱敏方式一">
+      <created>1659021267997</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1659021267997</updated>
+    </task>
+    <task id="LOCAL-00017" summary="父工程添加新的依赖">
+      <created>1659021298141</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1659021298141</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,6 +334,8 @@
     <MESSAGE value="【Springboot】wxjava 修改消息推送" />
     <MESSAGE value="【Springboot】一些工具(比如：异常处理，数据脱敏之类的)的集合" />
     <MESSAGE value="【Springboot】wxjava 无用的依赖删除" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Springboot】wxjava 无用的依赖删除" />
+    <MESSAGE value="【Springboot】tools 数据脱敏方式一" />
+    <MESSAGE value="父工程添加新的依赖" />
+    <option name="LAST_COMMIT_MESSAGE" value="父工程添加新的依赖" />
   </component>
 </project>
