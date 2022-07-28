@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="【Springboot】整合wxjava实现 客服消息">
-      <change afterPath="$PROJECT_DIR$/springboot-xss/src/main/java/com/example/filter/mode2/XssAndSqlFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-xss/src/main/java/com/example/filter/mode2/XssAndSqlHttpServletRequestWrapper.java" afterDir="false" />
+    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="【Springboot】xss 和 防sql注入">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/controller/WxUserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/controller/WxUserInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-xss/src/main/java/com/example/filter/FilterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-xss/src/main/java/com/example/filter/FilterConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-xss/src/main/java/com/example/filter/MyServletInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-xss/src/main/java/com/example/filter/mode1/MyServletInputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-xss/src/main/java/com/example/filter/XssFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-xss/src/main/java/com/example/filter/mode1/XssFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-xss/src/main/java/com/example/filter/XssHttpServletRequestWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-xss/src/main/java/com/example/filter/mode1/XssHttpServletRequestWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-xss/target/classes/com/example/filter/FilterConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-xss/target/classes/com/example/filter/FilterConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-xss/target/classes/com/example/filter/MyServletInputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-xss/target/classes/com/example/filter/XssFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-xss/target/classes/com/example/filter/XssHttpServletRequestWrapper$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-xss/target/classes/com/example/filter/XssHttpServletRequestWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/service/impl/MessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/service/impl/MessageServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +91,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.XssMain">
+  <component name="RunManager" selected="Spring Boot.WxJavaMain">
     <configuration name="MyJasyptConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.jasypt.config.MyJasyptConfig" />
       <module name="springboot-jasypt" />
@@ -175,7 +165,7 @@
       <workItem from="1658808353609" duration="1543000" />
       <workItem from="1658896896903" duration="5815000" />
       <workItem from="1658931752201" duration="3414000" />
-      <workItem from="1658966667487" duration="6170000" />
+      <workItem from="1658966667487" duration="8436000" />
     </task>
     <task id="LOCAL-00001" summary="SpringBoot使用ip2region 通过ip获取 地理位置信息">
       <created>1658805290859</created>
@@ -254,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658980841304</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="【Springboot】xss 和 防sql注入">
+      <created>1658983412012</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658983412012</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +278,7 @@
     <MESSAGE value="【Springboot】整合wxjava实现获取用户信息" />
     <MESSAGE value="【Springboot】整合wxjava实现 发送模板消息" />
     <MESSAGE value="【Springboot】整合wxjava实现 客服消息" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Springboot】整合wxjava实现 客服消息" />
+    <MESSAGE value="【Springboot】xss 和 防sql注入" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Springboot】xss 和 防sql注入" />
   </component>
 </project>

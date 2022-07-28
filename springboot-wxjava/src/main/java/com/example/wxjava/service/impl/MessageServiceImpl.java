@@ -3,7 +3,6 @@ package com.example.wxjava.service.impl;
 import cn.binarywang.wx.miniapp.api.WxMaService;
 import cn.binarywang.wx.miniapp.bean.WxMaKefuMessage;
 import cn.binarywang.wx.miniapp.bean.WxMaSubscribeMessage;
-import cn.dev33.satoken.stp.StpUtil;
 import cn.hutool.core.date.DatePattern;
 import cn.hutool.core.date.DateTime;
 import cn.hutool.core.date.DateUtil;
@@ -32,16 +31,16 @@ public class MessageServiceImpl implements MessageService {
     private final WxMaService wxMaService;
     @Override
     public R sendMessage() {
-        String userId = StpUtil.getLoginIdAsString();
+        //String userId = StpUtil.getLoginIdAsString();
         // 测试
         List<WxMaSubscribeMessage.MsgData> msgData = Arrays.asList(
-                new WxMaSubscribeMessage.MsgData("thing1", "赵久燚是sb"),
+                new WxMaSubscribeMessage.MsgData("thing1", "嘿嘿"),
                 new WxMaSubscribeMessage.MsgData("date3", new DateTime(DateUtil.now(), DatePattern.NORM_DATETIME_FORMAT).toString())
         );
         try {
             WxMaSubscribeMessage message = WxMaSubscribeMessage.builder()
-                    //.toUser("oDiMW5WNZLBmK1vPsqE4QbawW0Ng")
-                    .toUser(userId)
+                    .toUser("oDiMW5WNZLBmK1vPsqE4QbawW0Ng")
+                    //.toUser(userId)
                     .templateId("7oklMCAUD0zNAoTWikBOPSwVH2-XKC2-BJVqsUYGxgg")
                     .data(msgData)
                     .build();
