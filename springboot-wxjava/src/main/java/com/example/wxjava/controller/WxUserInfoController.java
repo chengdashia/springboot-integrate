@@ -3,13 +3,11 @@ package com.example.wxjava.controller;
 import cn.binarywang.wx.miniapp.api.WxMaService;
 import cn.binarywang.wx.miniapp.bean.WxMaJscode2SessionResult;
 import cn.binarywang.wx.miniapp.bean.WxMaUserInfo;
-import cn.binarywang.wx.miniapp.util.WxMaConfigHolder;
 import com.example.wxjava.common.result.R;
 import com.example.wxjava.domain.dto.WxUserInfo;
 import com.example.wxjava.service.UserInfoService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import me.chanjar.weixin.common.error.WxErrorException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
