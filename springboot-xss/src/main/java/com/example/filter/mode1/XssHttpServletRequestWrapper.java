@@ -1,4 +1,4 @@
-package com.example.filter;
+package com.example.filter.mode1;
 
 import com.alibaba.fastjson.JSON;
 import com.fasterxml.jackson.core.type.TypeReference;

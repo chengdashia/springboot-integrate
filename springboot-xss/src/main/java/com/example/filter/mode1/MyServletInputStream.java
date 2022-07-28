@@ -1,4 +1,4 @@
-package com.example.filter;
+package com.example.filter.mode1;
 
 import javax.servlet.ReadListener;
 import javax.servlet.ServletInputStream;
