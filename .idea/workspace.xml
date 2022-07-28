@@ -4,10 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="【Springboot】xss 和 防sql注入">
+    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="【Springboot】wxjava 无用的依赖删除">
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/ToolsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/annotation/CustomSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/annotation/MyJsonSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/common/exception/BaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/common/exception/ExceptionEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/common/exception/RestExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/common/result/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/common/result/ResponseAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/common/result/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/domain/vo/TestVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/rule/BaseRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/rule/DefaultRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/rule/IdCardRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/rule/PasswordRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/rule/PhoneRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/rule/RuleItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/rule/UserNameRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/controller/WxUserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/controller/WxUserInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/service/impl/MessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-tools/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -60,7 +80,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/gitProject/github/springboot-integrate/springboot-wxjava/src/main/java/com/example/wxjava/controller",
+    "last_opened_file_path": "E:/gitProject/github/springboot-integrate/springboot-tools/src/main/java/com/example/tools",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -71,6 +91,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\gitProject\github\springboot-integrate\springboot-tools\src\main\java\com\example\tools" />
       <recent name="E:\gitProject\github\springboot-integrate\springboot-wxjava\src\main\java\com\example\wxjava\controller" />
       <recent name="E:\gitProject\github\springboot-integrate\springboot-wxjava\src\main\java\com\example\wxjava\config" />
       <recent name="E:\gitProject\github\springboot-integrate\springboot-wxjava\src\main\resources" />
@@ -91,7 +112,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.WxJavaMain">
+  <component name="RunManager" selected="Spring Boot.ToolsMain">
     <configuration name="MyJasyptConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.jasypt.config.MyJasyptConfig" />
       <module name="springboot-jasypt" />
@@ -122,6 +143,13 @@
     <configuration name="SpringbootJasyptApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-jasypt" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.jasypt.SpringbootJasyptApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToolsMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-tools" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.tools.ToolsMain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -165,7 +193,7 @@
       <workItem from="1658808353609" duration="1543000" />
       <workItem from="1658896896903" duration="5815000" />
       <workItem from="1658931752201" duration="3414000" />
-      <workItem from="1658966667487" duration="8436000" />
+      <workItem from="1658966667487" duration="13028000" />
     </task>
     <task id="LOCAL-00001" summary="SpringBoot使用ip2region 通过ip获取 地理位置信息">
       <created>1658805290859</created>
@@ -251,7 +279,28 @@
       <option name="project" value="LOCAL" />
       <updated>1658983412012</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="【Springboot】wxjava 修改消息推送">
+      <created>1659004547740</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659004547740</updated>
+    </task>
+    <task id="LOCAL-00014" summary="【Springboot】一些工具(比如：异常处理，数据脱敏之类的)的集合">
+      <created>1659004657976</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659004657976</updated>
+    </task>
+    <task id="LOCAL-00015" summary="【Springboot】wxjava 无用的依赖删除">
+      <created>1659004689794</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1659004689794</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +328,9 @@
     <MESSAGE value="【Springboot】整合wxjava实现 发送模板消息" />
     <MESSAGE value="【Springboot】整合wxjava实现 客服消息" />
     <MESSAGE value="【Springboot】xss 和 防sql注入" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Springboot】xss 和 防sql注入" />
+    <MESSAGE value="【Springboot】wxjava 修改消息推送" />
+    <MESSAGE value="【Springboot】一些工具(比如：异常处理，数据脱敏之类的)的集合" />
+    <MESSAGE value="【Springboot】wxjava 无用的依赖删除" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Springboot】wxjava 无用的依赖删除" />
   </component>
 </project>

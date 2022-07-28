@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-wxjava" />
+        <module name="springboot-tools" />
         <module name="ip2region" />
         <module name="springboot-jasypt" />
         <module name="springboot-xss" />
