@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="【Springboot】整合wxjava实现获取用户信息">
-      <change afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/controller/WxMessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/service/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/service/impl/MessageServiceImpl.java" afterDir="false" />
+    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="【Springboot】整合wxjava实现 发送模板消息">
+      <change afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/domain/vo/wx/WxKefuMessageBackVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/domain/vo/wx/WxKefuMessageVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/controller/WxMessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/controller/WxMessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/service/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/service/impl/MessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/java/com/example/wxjava/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-wxjava/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-wxjava/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -61,8 +68,8 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
-    "spring.configuration.checksum": "c690269631b749d5d78a4fa40ba0b09d"
+    "settings.editor.selected.configurable": "editor.preferences.import",
+    "spring.configuration.checksum": "d4817cb708269d18649d1fd7c1f03241"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -160,7 +167,8 @@
       <workItem from="1658804241252" duration="3957000" />
       <workItem from="1658808353609" duration="1543000" />
       <workItem from="1658896896903" duration="5815000" />
-      <workItem from="1658931752201" duration="3123000" />
+      <workItem from="1658931752201" duration="3414000" />
+      <workItem from="1658966667487" duration="3578000" />
     </task>
     <task id="LOCAL-00001" summary="SpringBoot使用ip2region 通过ip获取 地理位置信息">
       <created>1658805290859</created>
@@ -225,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658934638166</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="【Springboot】整合wxjava实现 发送模板消息">
+      <created>1658935146194</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658935146194</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +265,7 @@
     <MESSAGE value="xss 防护" />
     <MESSAGE value="【Springboot】整合wxjava实现微信登录" />
     <MESSAGE value="【Springboot】整合wxjava实现获取用户信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Springboot】整合wxjava实现获取用户信息" />
+    <MESSAGE value="【Springboot】整合wxjava实现 发送模板消息" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Springboot】整合wxjava实现 发送模板消息" />
   </component>
 </project>
