@@ -55,7 +55,7 @@ public class MessageServiceImpl implements MessageService {
     @Override
     public R sendKefuMessage(WxKefuMessageVo entity) {
         try {
-            String openId = "oDiMW5WNZLBmK1vPsqE4QbawW0Ng";
+            String openId = "oDiMW5Uov6rAYjjCH3r6jr7Nok7I";
             WxMaKefuMessage message = WxMaKefuMessage.newTextBuilder()
                     .toUser(openId)
                     .content(entity.getContent())
