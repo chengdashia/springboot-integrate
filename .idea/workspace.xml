@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="父工程添加新的依赖">
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method2/annotation/Desensitize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method2/annotation/DesensitizeRuleEnums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method2/annotation/SensitiveJsonSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method2/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method2/domain/vo/UserInfo.java" afterDir="false" />
+    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="【Springboot】tools 数据脱敏方式二">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-tools/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method1/annotation/CustomSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method1/annotation/CustomSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method1/annotation/MyJsonSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method1/annotation/MyJsonSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method1/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method1/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method1/domain/vo/TestVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/tools/desensitize/method1/domain/vo/TestVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ip2region/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ip2region/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ip2region/src/main/java/com/example/ip2region/controller/IpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ip2region/src/main/java/com/example/ip2region/controller/IpController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +174,7 @@
       <workItem from="1658808353609" duration="1543000" />
       <workItem from="1658896896903" duration="5815000" />
       <workItem from="1658931752201" duration="3414000" />
-      <workItem from="1658966667487" duration="14128000" />
+      <workItem from="1658966667487" duration="15356000" />
     </task>
     <task id="LOCAL-00001" summary="SpringBoot使用ip2region 通过ip获取 地理位置信息">
       <created>1658805290859</created>
@@ -303,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659021298141</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="【Springboot】tools 数据脱敏方式二">
+      <created>1659022185484</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1659022185484</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +335,7 @@
     <MESSAGE value="【Springboot】wxjava 无用的依赖删除" />
     <MESSAGE value="【Springboot】tools 数据脱敏方式一" />
     <MESSAGE value="父工程添加新的依赖" />
-    <option name="LAST_COMMIT_MESSAGE" value="父工程添加新的依赖" />
+    <MESSAGE value="【Springboot】tools 数据脱敏方式二" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Springboot】tools 数据脱敏方式二" />
   </component>
 </project>
