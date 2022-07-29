@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="【Springboot】tools 数据脱敏方式二">
+    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="【Springboot】ip2region 补充">
+      <change afterPath="$PROJECT_DIR$/springboot-xss/src/test/java/com/example/test/Test01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ip2region/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ip2region/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ip2region/src/main/java/com/example/ip2region/controller/IpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ip2region/src/main/java/com/example/ip2region/controller/IpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-xss/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-xss/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ToolsMain">
+  <component name="RunManager" selected="Spring Boot.WxJavaMain">
     <configuration name="MyJasyptConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.jasypt.config.MyJasyptConfig" />
       <module name="springboot-jasypt" />
@@ -174,7 +174,7 @@
       <workItem from="1658808353609" duration="1543000" />
       <workItem from="1658896896903" duration="5815000" />
       <workItem from="1658931752201" duration="3414000" />
-      <workItem from="1658966667487" duration="15356000" />
+      <workItem from="1658966667487" duration="16960000" />
     </task>
     <task id="LOCAL-00001" summary="SpringBoot使用ip2region 通过ip获取 地理位置信息">
       <created>1658805290859</created>
@@ -302,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659022185484</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="【Springboot】ip2region 补充">
+      <created>1659060850979</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1659060850979</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +343,7 @@
     <MESSAGE value="【Springboot】tools 数据脱敏方式一" />
     <MESSAGE value="父工程添加新的依赖" />
     <MESSAGE value="【Springboot】tools 数据脱敏方式二" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Springboot】tools 数据脱敏方式二" />
+    <MESSAGE value="【Springboot】ip2region 补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Springboot】ip2region 补充" />
   </component>
 </project>
