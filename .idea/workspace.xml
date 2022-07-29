@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="【Springboot】ip2region 补充">
-      <change afterPath="$PROJECT_DIR$/springboot-xss/src/test/java/com/example/test/Test01.java" afterDir="false" />
+    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="【Springboot】wxjava">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-xss/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-xss/pom.xml" afterDir="false" />
     </list>
@@ -61,7 +60,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/gitProject/github/springboot-integrate/springboot-tools/src/main/java/com/example/tools",
+    "last_opened_file_path": "E:/gitProject/github/springboot-integrate/springboot-wxjava/src/main/resources",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -72,10 +71,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\gitProject\github\springboot-integrate\springboot-wxjava\src\main\resources" />
       <recent name="E:\gitProject\github\springboot-integrate\springboot-tools\src\main\java\com\example\tools" />
       <recent name="E:\gitProject\github\springboot-integrate\springboot-wxjava\src\main\java\com\example\wxjava\controller" />
       <recent name="E:\gitProject\github\springboot-integrate\springboot-wxjava\src\main\java\com\example\wxjava\config" />
-      <recent name="E:\gitProject\github\springboot-integrate\springboot-wxjava\src\main\resources" />
       <recent name="E:\gitProject\github\springboot-integrate\springboot-wxjava\src\main\java\com\example\wxjava" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -174,7 +173,7 @@
       <workItem from="1658808353609" duration="1543000" />
       <workItem from="1658896896903" duration="5815000" />
       <workItem from="1658931752201" duration="3414000" />
-      <workItem from="1658966667487" duration="16960000" />
+      <workItem from="1658966667487" duration="22570000" />
     </task>
     <task id="LOCAL-00001" summary="SpringBoot使用ip2region 通过ip获取 地理位置信息">
       <created>1658805290859</created>
@@ -309,7 +308,28 @@
       <option name="project" value="LOCAL" />
       <updated>1659060850979</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="【Springboot】wxjava 配置https">
+      <created>1659091163333</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1659091163333</updated>
+    </task>
+    <task id="LOCAL-00021" summary="【Springboot】wxjava">
+      <created>1659094941600</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1659094941600</updated>
+    </task>
+    <task id="LOCAL-00022" summary="【Springboot】wxjava">
+      <created>1659098199665</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1659098199665</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,6 +364,8 @@
     <MESSAGE value="父工程添加新的依赖" />
     <MESSAGE value="【Springboot】tools 数据脱敏方式二" />
     <MESSAGE value="【Springboot】ip2region 补充" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Springboot】ip2region 补充" />
+    <MESSAGE value="【Springboot】wxjava 配置https" />
+    <MESSAGE value="【Springboot】wxjava" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Springboot】wxjava" />
   </component>
 </project>
