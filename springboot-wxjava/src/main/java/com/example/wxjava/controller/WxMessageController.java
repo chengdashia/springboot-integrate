@@ -71,6 +71,7 @@ public class WxMessageController {
             log.info("nonce: "+nonce);
             log.info("echostr: "+echostr);
             response.getOutputStream().println(echostr);
+
         }
     }
 
