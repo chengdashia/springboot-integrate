@@ -12,6 +12,8 @@
         <module>springboot-xss</module>
         <module>springboot-wxjava</module>
         <module>springboot-tools</module>
+        <module>springboot-itexpdf</module>
+        <module>shrio</module>
     </modules>
 
     <properties>

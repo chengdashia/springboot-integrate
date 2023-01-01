@@ -4,9 +4,87 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="【Springboot】wxjava">
+    <list default="true" id="0252dad2-2ed6-4dec-8855-377b4e8fa8d7" name="Changes" comment="【Springboot】xss">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/06a8d43619365d0808b0c2a43c8f9d424ccbf554" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/097a7705e7fb48686660b41976f522fb1e897e17" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/1356276b233608ec4fc6ba6093100839f2543dfc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1cae5fcb423b8bd8627c375131be7c9330559880" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1cfafa624a4965530b469ed7bdafba02e2b04f8c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1dd2328fb6ccb18676af5ef2f3fd3f4e489c9af0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/225c55d9924c99c8ed228390c841aa6cd137622b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2edee75b21c2f8b9e4fe8d994af227283b838078" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/3309d70371d6459385b32b28d15358572af00a29" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/371fb7a011275c3abc55550fe2b8d14b82574c60" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3fd19092d98c25d4e8b7864b6a7b291e2cd4916d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48e34b6c20a597e77a9cc9a2f3d5950eabbcd149" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4dda6800b773501479d42f57b1df173a224b36d9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5be2ade544f35024575b97b135d4159f306bd063" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/61764030067b8ae55f65d9289bd16f96ac92020a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/653d355e73d1341a9d174a8b8b025a2a78418815" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66f4da38ea331b16c21ccc0fc4b1b52173a4d6f2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f7a6618a946e2fa8c2cc186f462fb04b32ce6dd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/70a496625c52203422f758a5778e560b16fc5a6c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/72e99228b06bc786a3d3185c7ec678f0c7168e6a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e9211ab11492a564155d1df92f93589f54279b3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82e0c5bb4373eb3912a477d595e7df35b92bd087" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8d87c5a6e2b2679170a9dd0a065800e5eba44cfa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8de8ef5740bd68d7bc64cb3b248079ce994f1f6a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/1/91cec6574e4ccb167b0bed9fd5db4e80c9808772" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/9977490b0fa55367cc6da9448fcd7797936531a6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f4629c4c1cf45e4ba9575ea3bad533bb4e1633b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f95c51ca6e16e630ab9281d73251b5746eecfea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad5e9acf039d63cefc6978af7661d79b0249bb00" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0371b944514d8f539b76279ffca91d38a4e5cfb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b23f4453629ab8f3f5f6dcc521fbd9172e655de0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb6b76b28db14479ec770d0fab215a281edce2e4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0cf7505de01deecee92420a6dd9cfeb956b8471" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c30cacc2383f96b73fe89fcaa92aff7f6100f8cd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/caf1e1dc3745963048d0ecbf3146191c28eeb33e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cbabbb130542b4d4fdb6230d5ccfaeb17fc3606a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d917c0bc6bfdca0692d16e2738ccac0ed123f749" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/dbd528a8a3eb41b8afcf2e403e284772aea147ba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e64beb35126bd8cf06d8679dd4bc69cdbe34af1b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f29949c3666b4dd077ee0fddb89c5b2aeedd75c8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f31a797af538af8eb68cf148a3200c8f00961a8d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shrio/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shrio/src/main/java/org/dong/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shrio/src/main/java/org/dong/MyRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shrio/src/main/java/org/dong/ShiroMD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shrio/src/main/java/org/dong/ShiroRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shrio/src/main/resources/shiro.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-itexpdf/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-itexpdf/src/main/java/com/example/AppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-itexpdf/src/main/java/com/example/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-itexpdf/src/main/java/com/example/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-itexpdf/src/main/java/com/example/domain/TestDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-itexpdf/src/main/java/com/example/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-itexpdf/src/main/java/com/example/excel/DefaultExcelListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-itexpdf/src/main/java/com/example/excel/EasyExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-itexpdf/src/main/java/com/example/excel/EasyExcelWriterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-itexpdf/src/main/java/com/example/excel/ExcelUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-itexpdf/src/main/java/com/example/excel/RoleConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-itexpdf/src/main/java/com/example/pdf/PdfData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-itexpdf/src/main/java/com/example/pdf/PdfUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-itexpdf/src/main/java/com/example/pdf/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-itexpdf/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-shiro/src/main/java/com/dong/shiro/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-shiro/src/main/java/com/dong/shiro/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-shiro/src/main/java/com/dong/shiro/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-shiro/src/main/java/com/dong/shiro/model/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-shiro/src/main/java/com/dong/shiro/realm/ShiroRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-shiro/src/main/java/com/dong/shiro/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-shiro/src/main/java/com/dong/shiro/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-xss/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-xss/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,17 +94,23 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://D:/studytools/Apache/Maven/apache-maven-3.8.1/newrepository/com/alibaba/easyexcel-core/3.1.1/easyexcel-core-3.1.1.jar!/com/alibaba/excel/annotation/write/style/ContentStyle.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,9 +123,17 @@
         <option name="userSettingsFile" value="D:\studytools\Apache\Maven\apache-maven-3.8.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2CSmDCtIIem1O6DFfCDyqE5hMRn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -50,6 +142,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Project.color": "302526",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -60,13 +153,18 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/gitProject/github/springboot-integrate/springboot-wxjava/src/main/resources",
+    "last_opened_file_path": "E:/gitProject/github/springboot-project/nongXingGang",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.import",
-    "spring.configuration.checksum": "d4817cb708269d18649d1fd7c1f03241"
+    "spring.configuration.checksum": "a8c50cfa8bf0cf3822b34c5d30dfd428",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -81,9 +179,22 @@
       <recent name="E:\gitProject\github\springboot-integrate\springboot-arcface\src\main\java\com\example\springbootarcface" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.dao" />
+      <recent name="com.example.excel" />
+      <recent name="com.example.pdf" />
       <recent name="com.example.wxjava.domain.dto" />
       <recent name="com.example.jasypt.config" />
     </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 9 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -92,13 +203,65 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.WxJavaMain">
-    <configuration name="MyJasyptConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.jasypt.config.MyJasyptConfig" />
-      <module name="springboot-jasypt" />
+  <component name="RunManager" selected="Spring Boot.SpringbootShiroApplication">
+    <configuration name="ShiroMD5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dong.ShiroMD5" />
+      <module name="shrio" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.jasypt.config.*" />
+          <option name="PATTERN" value="org.dong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShiroRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dong.ShiroRun" />
+      <module name="shrio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.pdf.Test" />
+      <module name="springboot-itexpdf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.pdf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.domain.TestDemo01" />
+      <module name="springboot-itexpdf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-itexpdf" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.AppMain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,6 +290,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringbootShiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot-shiro" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dong.shiro.SpringbootShiroApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ToolsMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-tools" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.tools.ToolsMain" />
@@ -141,23 +311,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XssMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="XssMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="springboot-xss" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.XssMain" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.XssMain" />
-        <item itemvalue="Application.MyJasyptConfig" />
+        <item itemvalue="Application.ShiroMD5" />
+        <item itemvalue="Application.ShiroRun" />
+        <item itemvalue="Spring Boot.AppMain" />
+        <item itemvalue="Application.TestDemo01" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +340,19 @@
       <workItem from="1658808353609" duration="1543000" />
       <workItem from="1658896896903" duration="5815000" />
       <workItem from="1658931752201" duration="3414000" />
-      <workItem from="1658966667487" duration="22570000" />
+      <workItem from="1658966667487" duration="22602000" />
+      <workItem from="1659440352261" duration="1230000" />
+      <workItem from="1659756103509" duration="2132000" />
+      <workItem from="1660476666682" duration="1738000" />
+      <workItem from="1660480644318" duration="996000" />
+      <workItem from="1660543925306" duration="135000" />
+      <workItem from="1660622784644" duration="18245000" />
+      <workItem from="1660690694969" duration="12011000" />
+      <workItem from="1660883503479" duration="618000" />
+      <workItem from="1660896100505" duration="114000" />
+      <workItem from="1662384450888" duration="120000" />
+      <workItem from="1662472786911" duration="27000" />
+      <workItem from="1672381361513" duration="12402000" />
     </task>
     <task id="LOCAL-00001" summary="SpringBoot使用ip2region 通过ip获取 地理位置信息">
       <created>1658805290859</created>
@@ -329,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659098199665</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="【Springboot】xss">
+      <created>1659098831208</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1659098831208</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,6 +552,17 @@
     <MESSAGE value="【Springboot】ip2region 补充" />
     <MESSAGE value="【Springboot】wxjava 配置https" />
     <MESSAGE value="【Springboot】wxjava" />
-    <option name="LAST_COMMIT_MESSAGE" value="【Springboot】wxjava" />
+    <MESSAGE value="【Springboot】xss" />
+    <option name="LAST_COMMIT_MESSAGE" value="【Springboot】xss" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="com.alibaba.excel.exception.ExcelWriteDataConvertException" package="com.alibaba.excel.exception" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
